@@ -5,7 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-image: linear-gradient(to left,darkgreen,black);">
+<body style="background-image: linear-gradient(to left,red,blue);">
+    <div class="container">
+    <form>
+        <label for="username">USERNAME</label><br>
+        <input name="username" type="text"><br>
+        <label for="password">password</label><br>
+        <input name="password" type="text"><br>
+        <input type="submit"> <a href="#">new user? register here...</a>
+    </form>
+    </div>
     
 </body>
 </html>
+<style>
+    .container
+    {
+     position :fixed;
+     left:40%;
+     top:33%;
+     background-color: rgba(243, 240, 240, 0.147);
+
+    }
+    input,label,a
+    {
+        margin:30px;
+        color:black;
+        padding:10px;
+        font-size:30px;
+        border: none;
+        text-decoration: none;
+       
+       
+        
+    }
+    input
+    {
+        /* color: rgba(238, 246, 253, 0.23); */
+    }
+</style>
